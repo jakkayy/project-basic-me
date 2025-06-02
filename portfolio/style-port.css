@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sue+Ellen+Francisco&display=swap');
+
+body {
+    background-image: linear-gradient(white, rgba(56, 17, 128, 0.673));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#present {
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+    font-family: "Sue Ellen Francisco", cursive;
+
+    .present-one {
+        font-size: 40px;
+    }
+    .present-two {
+        font-size: 60px;
+    }
+    .present-three {
+        font-size: 50px;
+    }
+    #present-four {
+        font-size: 35px;
+    }
+}
+#journey {
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+    .head-journey {
+        font-size: 60px;
+    }
+    .triam {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        padding-right: 20px;
+    }
+    .ku {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        padding-left: 20px;
+    }
+    .name-journey {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Prompt", sans-serif;
+    }
+    .detail-journey {
+        font-family: "Prompt", sans-serif;
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+}
+#about-me {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Prompt", sans-serif;
+    padding-bottom: 100px;
+
+    .about-detail {
+        display: flex;
+        justify-content: center;
+
+        .about-image {
+            display: block;
+            text-align: center;
+            position: relative;
+
+            .image-front{
+                .about-pic {
+                    height: 400px;
+                }
+                .image-back {
+                    position: absolute;
+                    opacity: 0; 
+                    transform: translate(100%, -150%);
+                    transition: opacity 0.3s ease;
+                }
+            }        
+            .image-front:hover {
+                .image-back {
+                    justify-content: center;
+                    position: absolute;
+                    opacity: 1; 
+                    transform: translate(90%, -150%);
+
+                    .ig {
+                        padding-left: 20px;
+                    }
+                }
+            } 
+        }
+        .click-for-contact {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #pic-me {
+            width: 300px;
+            height: 400px;
+            border-radius: 20px;
+        }
+        #pic-me:hover {
+            width: 310px;
+            height: 410px;
+
+        }
+        .about-data {
+            text-align: left;
+            margin-left: 30px;
+
+            .data {
+                font-weight: bold;
+                font-size: 30px;
+                margin-bottom: 5px;
+            }
+            .data-detail {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+        
+}
+#project {
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+
+    .detail-ject {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 50px;
+        font-size: 25px;
+
+        .hardware {
+            border: solid white;
+            width: 350px;
+            height: 600px;
+            background-color: white;
+        }
+        .hora {
+            border: solid white;
+            width: 350px;
+            height: 600px;
+            background-color: white;
+        }
+        .ptt {
+            border: solid white;
+            width: 350px;
+            height: 600px;
+            background-color: white;
+        }
+        .name {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        a {
+            text-align: center;
+            align-items: end;
+            display: block;
+            text-decoration: none;
+            margin-left: 80px;
+            margin-right: 80px;
+            color: white;
+            background-color: black;
+
+            .read-more {
+                font-size: 15px;
+                border: solid black;
+            }
+        }
+    }
+    .image-ject img{
+        width: 300px;
+    }
+    .data-pro {
+        font-size: 16px;
+        padding-bottom: 30px;
+
+    } 
+}
+
+#certificate {
+    font-family: "Prompt", sans-serif;
+    .head-certificate {
+        font-family: "Prompt", sans-serif;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .main-certificate {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 200px;
+        .devlab {
+            width: 350px;
+            height: 500px;
+            border: solid white;
+            justify-content: center;
+            background-color: white;
+            text-align: center;
+            padding-top: 30px;
+        }
+        .samsung {
+            width: 350px;
+            height: 500px;
+            border: solid white;
+            background-color: white;
+            text-align: center;
+            padding-top: 30px;
+        }
+        img {
+            width: 300px; 
+        }
+        .data-certificate {
+            font-family: "Prompt", sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .tag {
+            display: block;
+            margin-top: 40px;
+        }
+        .hastag {
+            font-weight: bold;
+            border-radius: 10px;
+            border: solid ;
+            background-color: rgb(207, 207, 207);
+            margin: 10px;
+
+        }
+    }
+}
+#resume {
+    display: block;
+    margin: 0 auto;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: solid white;
+    width: 300px;
+}
