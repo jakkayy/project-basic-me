@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sue+Ellen+Francisco&display=swap');
+
+* {
+    font-family: "Prompt", sans-serif;
+}
+body {
+    background-color: rgb(243, 240, 240);
+}
+
+.jordan-head {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    img {
+        width: 18px;
+        height: 18px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 42px;
+    }
+    .jordan-right {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 60px;
+        a {
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;  
+        }
+        .tab {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.nike-head {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+    .swoosh {
+        height: 20px;
+        width: 60px;
+        padding-left: 22px;
+        font-weight: bold ;
+    }
+    .menu {
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px;
+        }
+        a:hover {
+            text-decoration: underline 3px;
+        }
+    }
+}
+.search-bar {  
+    display: flex;
+    align-items: center; 
+    padding-right: 25px;
+    .search-input {
+        padding-left: 40px;
+        border: 1px rgb(233, 233, 233);
+        border-radius: 30px;
+        height: 40px;
+        width: 160px;
+        background-color: rgb(233, 233, 233);
+        background-image: url("https://img.icons8.com/ios/50/search--v1.png");
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: 10px;  
+        font-size: 18px;
+    }
+    .icon-left {
+        padding-left: 20px;
+        padding-right: 20px;
+        img {
+            width: 25px;
+            height: 25px;
+            padding-top: 10px;
+            padding-left: 15px;
+        }
+    }
+}
+#text-promo {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    .textchange {
+    font-size: 17px;
+    padding-top: 25px;
+    }
+    .read-more {
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+#nike-body {
+    background-color: white;
+    .triomphe {
+        background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/779596d7-1631-4632-bf4c-e9701c394a03/nike-football.png");
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .paris-text {
+        text-align: center;
+        padding: 30px;
+        .paris1 {
+            font-size: 15px;
+            font-weight: bold;
+            padding-bottom: 30px;
+        }
+        .paris2 {
+            font-size: 75px;
+            font-weight: bold;
+            padding-bottom: 30px;
+        }
+        .paris3 {
+            font-size: 15px;
+            padding-bottom: 25px;
+        }
+            
+        .block-buy {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
+
+            a {
+                display: flex;
+                text-align: center;
+                border: solid black;
+                border-radius: 30px;
+                background-color: black;
+                width: 80px;
+                height: 40px;
+                text-decoration: none;
+                align-items: center;
+                justify-content: center;
+        
+                .paris4 {
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .fly-vini {
+        display: flex;
+        justify-content: center;
+        img {
+            height: 450px;
+            width: auto;
+        }
+    }
+    .vini-text {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+
+        .vini1 {
+            font-weight: bold;
+            font-size: 75px;
+        }
+        .vini2 {
+            padding-top: 20px;
+        }
+        .vini3 {
+            display: inline-flex;
+            padding: 10px;
+            text-decoration: none;
+            border: solid black;
+            border-radius: 30px;
+            width: 150px;
+            height: 20px;
+            font-weight: bold;
+            background-color: black;
+            text-align: center;
+            justify-content: center;
+            margin-top: 25px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                
+                .mercurial {
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .hot {
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+
+        .hot-head {
+            padding-bottom: 30px;
+            font-size: 25px;
+            text-align: left;
+            font-weight: bold;
+            padding-left: 85px;
+        }
+        .presented {
+                display: flex;
+                justify-content: center;
+            a {
+                padding-left: 10px;
+                color: black;
+                text-decoration: none;
+
+                p {
+                    text-align: left;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                img {
+                    height: 525px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    .new {
+        display: block;
+        margin-top: 100px;
+
+        .new-head {
+            font-size: 25px;
+            font-weight: bold;
+            padding-left: 65px;
+            padding-bottom: 30px;
+        }
+        .video-present {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+
+            img {
+                width: 1200px;
+                justify-content: center;
+            }
+
+            .text1 {
+                font-weight: bold;
+                font-size: 75px;
+                color: black;
+                padding-top: 40px;
+            }
+            .text2 {
+                font-size: 15px;
+                color: black;
+                padding-bottom: 20px;
+            }
+            a {
+                display: flex;
+                text-decoration: none;
+                justify-content: center;
+
+                .select-buy {
+                    border: solid black;
+                    border-radius: 30px;
+                    color: white;
+                    background-color: black;
+                    width: 100px;
+                    height: 30px;
+                    align-content: center;
+                }
+            }
+        }
+    }   
+    .buy-icon {
+        display: block;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 80px;
+        margin-bottom: 90px;
+        
+        .head-bi {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            .text-bi {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .button-left-right {
+                display: flex;
+
+                .button-left {
+                    button {
+                        display: flex;
+                        border: solid rgb(233, 233, 233);
+                        border-radius: 50%;
+                        padding: 13px;
+                        margin-right: 10px;
+                        background-color: rgb(233, 233, 233);
+                        .icon-left {
+                            width: 20px;
+                            height: auto;
+                            align-items: center;
+                        }
+                    }
+                    button:hover {
+                        background-color: rgb(195, 195, 195);
+                        border: solid rgb(195, 195, 195);
+                    }
+                    
+                }
+                .button-right {
+                    button {
+                        display: flex;
+                        border: solid rgb(233, 233, 233);
+                        border-radius: 50%;
+                        padding: 13px;
+                        background-color: rgb(233, 233, 233);
+                        .icon-right {
+                            width: 20px;
+                            height: auto;
+                            align-items: center;
+                        }
+                    } 
+                    button:hover {
+                        background-color: rgb(195, 195, 195);
+                        border: solid rgb(195, 195, 195);
+                    }   
+                }
+            }
+        }    
+        .main-in-main {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin-left: 40px;
+            gap: 15px;
+            .main-buy-icon {
+                margin-bottom: 90px;
+                img {
+                    height: 350px;
+                    width: auto;
+        
+                }
+            }
+        }
+    }
+    .hit-now-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+
+        .hit-now-head-left {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            font-weight: bold;
+            padding-left: 40px;
+
+        }
+
+        .hit-now-head-right {
+            display: flex;
+            padding-left: 40px;
+            padding-right: 40px;
+            align-items: center;
+
+            .big-right {
+                display: flex;
+            }
+            a {
+                display: flex;
+                text-decoration: none;
+                align-items: center;
+                .select-buy {
+                    color: black;
+                    font-weight: bold;
+                } 
+            }
+            .button-left-right {
+                display: flex;
+                padding-left: 20px;
+
+                .button-left {
+                    button {
+                        display: flex;
+                        border: solid rgb(233, 233, 233);
+                        border-radius: 50%;
+                        padding: 13px;
+                        margin-right: 10px;
+                        background-color: rgb(233, 233, 233);
+                        .icon-left {
+                            width: 20px;
+                            height: auto;
+                            align-items: center;
+                        }
+                    }
+                    button:hover {
+                        background-color: rgb(195, 195, 195);
+                        border: solid rgb(195, 195, 195);
+                    }
+                    
+                }
+                .button-right {
+                    button {
+                        display: flex;
+                        border: solid rgb(233, 233, 233);
+                        border-radius: 50%;
+                        padding: 13px;
+                        background-color: rgb(233, 233, 233);
+                        .icon-right {
+                            width: 20px;
+                            height: auto;
+                            align-items: center;
+                        }
+                    } 
+                    button:hover {
+                        background-color: rgb(195, 195, 195);
+                        border: solid rgb(195, 195, 195);
+                    }   
+                }
+            }
+        }
+    }
+    .hit-now-main {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-left: 40px;
+        padding-bottom: 80px;
+
+        .hit-main-detail {
+            margin-right: 15px;
+
+            .product {
+
+                .product-name {
+                    font-weight: bold;
+                    padding-bottom: 5px;
+                    color: black;
+                }
+                .product-detail {
+                    color: grey;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+    .select-sport {
+        display: block;
+        margin-top: 120px;
+        margin-left: 40px;
+
+        .select-sport-head {
+            display: flex;
+            justify-content: space-between;
+
+            .select-sport-left {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .select-sport-right {
+                .big-right {
+                    display: flex;
+                    padding-right: 40px;
+
+                    .button-left-right {
+                        display: flex;
+                        padding-left: 20px;
+
+                        .button-left {
+                            button {
+                                display: flex;
+                                border: solid rgb(233, 233, 233);
+                                border-radius: 50%;
+                                padding: 13px;
+                                margin-right: 10px;
+                                background-color: rgb(233, 233, 233);
+                                .icon-left {
+                                    width: 20px;
+                                    height: auto;
+                                    align-items: center;
+                                }
+                            }
+                            button:hover {
+                                background-color: rgb(195, 195, 195);
+                                border: solid rgb(195, 195, 195);
+                            }
+                            
+                        }
+                        .button-right {
+                            button {
+                                display: flex;
+                                border: solid rgb(233, 233, 233);
+                                border-radius: 50%;
+                                padding: 13px;
+                                background-color: rgb(233, 233, 233);
+                                .icon-right {
+                                    width: 20px;
+                                    height: auto;
+                                    align-items: center;
+                                }
+                            } 
+                            button:hover {
+                                background-color: rgb(195, 195, 195);
+                                border: solid rgb(195, 195, 195);
+                            }  
+                        } 
+                    }
+                }
+            }
+        }
+        .selcet-sport-main {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            border: solid black;
+
+            .select-sport-pic {
+                display: flex;
+            }
+        }
+    }
+}
